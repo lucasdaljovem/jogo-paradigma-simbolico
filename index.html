@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matriz 3x3</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
+    
+</head>
+<body>
+    <div class="matrix-container">
+        <div class="matrix">
+            <div class="label"></div>
+            <div class="label">A</div>
+            <div class="label">B</div>
+            <div class="label">C</div>
+            
+            <div class="label">1</div>
+            <input type="number" min="1" max="9" class="matrix-input" id="A1">
+            <input type="number" min="1" max="9" class="matrix-input" id="B1">
+            <input type="number" min="1" max="9" class="matrix-input" id="C1">
+            
+            <div class="label">2</div>
+            <input type="number" min="1" max="9" class="matrix-input" id="A2">
+            <input type="number" min="1" max="9" class="matrix-input" id="B2">
+            <input type="number" min="1" max="9" class="matrix-input" id="C2">
+            
+            <div class="label">3</div>
+            <input type="number" min="1" max="9" class="matrix-input" id="A3">
+            <input type="number" min="1" max="9" class="matrix-input" id="B3">
+            <input type="number" min="1" max="9" class="matrix-input" id="C3">
+        </div>
+        <button class="play-button" onclick="checkSum()">Jogar</button>
+        <div class="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
